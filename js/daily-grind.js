@@ -49,7 +49,7 @@ switch(myDay){
             color: "brown",
             name: "Drip",
             pic: "images/drip.jpg",
-            alt: "A pick of a drip coffee.",
+            alt: "A pic of a drip coffee.",
             day: "Wednesday",
             desc: "Some days you just need the drip...",
 
