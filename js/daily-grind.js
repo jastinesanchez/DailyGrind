@@ -25,7 +25,7 @@ function coffeeTemplate(coffee){
     myReturn = `
     <p>
     <img src="${coffee.pic}" alt="Our ${coffee.name}" id="coffee" />
-    <strong class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>
+    <strong id = "coffee-highlight" class="feature">${coffee.day}'s Coffee Special:</strong> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>
     ${coffee.desc}
 
     
@@ -87,9 +87,11 @@ switch(myDay){
 
 console.log(coffee);
 
-document.getElementById("coffee-output").innerHTML=coffeeTemplate(coffee);
+document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
 
+document.getElementsByTagName("HTML")[0].getElementsByClassName.backgroundColor = coffee.color;
 
+document.getElementById("coffee.highlight").style.color = coffee.color;
 
 
 alert("Hi, it's " + today);
