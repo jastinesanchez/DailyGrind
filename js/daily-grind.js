@@ -42,6 +42,28 @@ function coffeeTemplate(coffee){
 
 switch(myDay){
 
+    case 1:
+        today = "Monday";
+
+        coffee = {
+            color: "pink",
+            name: "Bubble Tea (Boba)",
+            pic: "images/bubble-tea.jpg",
+            alt: "A pic of Bubble tea or Boba.",
+            day: "Monday",
+            desc: "Sometimes you need to treat yourself to some Bubble Tea",
+
+
+
+        };
+
+
+    break;
+
+
+
+
+
     case 3:
         today = "Wednesday";
 
