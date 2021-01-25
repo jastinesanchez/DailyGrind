@@ -87,7 +87,7 @@ switch(myDay){
 
 console.log(coffee);
 
-document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffee-output").innerHTML=coffeeTemplate(coffee);
 
 
 
